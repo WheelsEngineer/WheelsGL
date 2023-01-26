@@ -1,0 +1,10 @@
+[package]
+name = "line"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wheels-gl = { path = "../gl", version = "0.1.0" }
+wheels-platform = { path = "../platform", version = "0.1.0" }
